@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.biodata-container {
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Photo box */
+.photo-box {
+    float: right;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+fieldset {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+    clear: both;
+}
+
+
+h2 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    clear: both;
+}
+
+
+.form-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+input[type="text"], input[type="date"], input[type="email"] {
+    border: none; 
+    border-bottom: 1px solid black; /* bottom border only */
+    background: transparent; 
+    width: 100%;
+    padding: 5px 0; /* Padding sa top and bottom */
+    margin-bottom: 10px;
+}
+
+/* columns sa inputs */
+.left-column {
+    grid-column: 1;
+}
+
+.right-column {
+    grid-column: 2;
+}
+
+p {
+    text-align: right;
+}
